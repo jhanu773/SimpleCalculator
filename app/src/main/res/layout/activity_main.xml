@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/ADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/SUB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUB" />
+
+    <Button
+        android:id="@+id/MUL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUL" />
+
+    <Button
+        android:id="@+id/DIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIV" />
+</LinearLayout>
